@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import compression from 'compression'
 import { validateEnvironment } from './utilities/validateEnvironment'
-import { downloadData } from './utilities/downloadData'
+import { downloadData } from './utilities/dataCache'
 
 dotenv.config();
 validateEnvironment( process.env )

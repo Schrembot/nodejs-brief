@@ -2,14 +2,21 @@ import fs, { ensureDir, pathExists } from 'fs-extra'
 import path from 'path'
 import axios from 'axios'
 
+
+const getCacheLocation = () => {
+    return path.join(__dirname, '..', 'cache')
+}
+const getCacheFileLocation = ( file:string ) => {
+    return `${path.join(getCacheLocation(), file)}`
+}
+
 export const downloadData = async ( targets:Array<string> ) => {
     
-    let cache = path.join(__dirname, '..', 'cache')
-    await ensureDir(cache)
+    await ensureDir( getCacheLocation() )
 
     return Promise.all( targets.map( async item => {
         let basename = path.basename(item)
-        let filepath = path.join(cache, basename)
+        let filepath = getCacheFileLocation(basename)
         let file_exists = await pathExists(filepath)
 
         if ( basename.length ) {
@@ -25,4 +32,17 @@ export const downloadData = async ( targets:Array<string> ) => {
         console.log(`Warning: ${item} has no valid basename`)
         return
     }))
+}
+
+export const loadData = async (file:string) => {
+    try {
+        return await fs.readJSON(getCacheFileLocation(file))
+    } catch ( error ) {
+        console.log( error )
+    }
+    return []
+}
+
+export const passthroughData = (file:string) => {
+    return getCacheFileLocation(file)
 }

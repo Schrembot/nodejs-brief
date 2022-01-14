@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rimraf dist && tsc",
     "preserve": "npm run build",
-    "serve": "cross-env NODE_ENV=development concurrently \"tsc --watch\" \"nodemon -q dist/index.js\"",
+    "serve": "cross-env NODE_ENV=development concurrently \"tsc --watch\" \"nodemon -q dist/index.js --ignore ./dist/cache/\"",
     "prestart": "npm run build",
     "start": "cross-env NODE_ENV=production node dist/index.js",
     "test": "npm test"
@@ -26,14 +26,17 @@
     "@types/compression": "^1.7.2",
     "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
+    "@types/fs-extra": "^9.0.13",
     "@types/node": "^17.0.8",
     "apicache": "^1.6.3",
+    "axios": "^0.24.0",
     "body-parser": "^1.19.1",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
     "dotenv": "^11.0.0",
     "express": "^4.17.2",
+    "fs-extra": "^10.0.0",
     "helmet": "^5.0.1",
     "rimraf": "^3.0.2",
     "typescript": "^4.5.4"

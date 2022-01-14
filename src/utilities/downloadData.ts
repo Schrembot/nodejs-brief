@@ -1,6 +1,6 @@
 import fs, { ensureDir, pathExists } from 'fs-extra'
 import path from 'path'
-import axios from 'axios';
+import axios from 'axios'
 
 export const downloadData = async ( targets:Array<string> ) => {
     

@@ -1,4 +1,4 @@
-import express, { Express, Request, Response } from 'express';
+import express, { Express } from 'express';
 import bodyParser from 'body-parser';
 import helmet from 'helmet';
 import dotenv from 'dotenv';
@@ -21,11 +21,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(require('./middleware/authorisation'))
 app.use('/', require('./routes'))
-app.get('*', (req: Request, res: Response)  => res.sendStatus(404));
 
-(async () => {
+;(async () => {
     // Preload and store all our data.
-    // This will be re-downloaded each time we run the application to make sure it's fresh
+    // This will be downloaded each time we recomple the application
     await downloadData([
         `${process.env.LEAGUE_SOURCE_ROOT_URL}/players.json`,
         `${process.env.LEAGUE_SOURCE_ROOT_URL}/results.json`,

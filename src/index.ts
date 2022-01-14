@@ -4,8 +4,10 @@ import helmet from 'helmet';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import compression from 'compression'
+import { validateEnvironment } from './utilities/validateEnvironment'
 
 dotenv.config();
+validateEnvironment( process.env )
 
 const PORT = process.env.LEAGUE_SERVER_PORT || 3000;
 const app: Express = express();

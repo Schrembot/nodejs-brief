@@ -1,8 +1,8 @@
 import { Request, Response, Router } from 'express'
-import { passthroughData } from '../utilities/dataCache'
 
+const resultsController = require('../controllers/results')
 const routes = Router();
 
-routes.get('/', async (req:Request, res:Response )=>res.sendFile( passthroughData('results.json') ) )
+routes.get('/', async (req:Request, res:Response )=>res.json( await resultsController.getAllResults() ) )
 
 module.exports = routes

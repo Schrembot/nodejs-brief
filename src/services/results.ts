@@ -4,6 +4,14 @@ export interface ResultForPlayer {
     player_id: string,
     points_scored: number
 }
+export interface ResultForTeam {
+    team_id: string,
+    players: Array<ResultForPlayer>
+}
+export interface Result {
+    home_team: ResultForTeam;
+    visiting_team: ResultForTeam;
+}
 export interface StatsForPlayer {
     points_scored: number
     games_played: number
@@ -17,16 +25,6 @@ export interface StatsForTeam {
     away_draws: number
     points_scored: number
     games_played: number
-}
-export interface Result {
-    home_team: {
-        team_id: string,
-        players: Array<ResultForPlayer>
-    };
-    visiting_team: {
-        team_id: string,
-        players: Array<ResultForPlayer>
-    };
 }
 
 export const getAll = async () => {

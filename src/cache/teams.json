@@ -1,0 +1,42 @@
+[
+    {
+        "team_id": "eade",
+        "name": "Eagles Defenders"
+    },
+    {
+        "team_id": "thti",
+        "name": "The Titans"
+    },
+    {
+        "team_id": "thsc",
+        "name": "The Scorpions"
+    },
+    {
+        "team_id": "anst",
+        "name": "Anaconda Strikers"
+    },
+    {
+        "team_id": "chbu",
+        "name": "Charging Buffalos"
+    },
+    {
+        "team_id": "piat",
+        "name": "Pirates of Atlantis"
+    },
+    {
+        "team_id": "roth",
+        "name": "Rolling Thunder"
+    },
+    {
+        "team_id": "viwa",
+        "name": "Victory Warriors"
+    },
+    {
+        "team_id": "mimu",
+        "name": "The Mighty Mustangs"
+    },
+    {
+        "team_id": "gopa",
+        "name": "The Golden Panthers"
+    }
+]

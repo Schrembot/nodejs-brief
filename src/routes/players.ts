@@ -1,9 +1,10 @@
 import { Request, Response, Router } from 'express'
 
+const playerController = require('../controllers/players')
 const routes = Router();
 
-routes.get('/', (req:Request, res:Response )=>res.json( Object.keys(req) ))
-routes.get('/:ids', (req:Request, res:Response )=>res.json( Object.keys(req) ) )
-routes.get('/:ids/stats', (req:Request, res:Response )=>res.json( Object.keys(req) ) )
+routes.get('/', async (req:Request, res:Response )=>res.json( await playerController.getAll() ))
+routes.get('/:ids', async (req:Request, res:Response )=>res.json( await playerController.get( req.params.ids?.split(',') ) ) )
+routes.get('/:ids/stats', async (req:Request, res:Response )=>res.json( Object.keys(req) ) )
 
 module.exports = routes

@@ -1,0 +1,4682 @@
+[
+    {
+        "home_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P045",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P070",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P009",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P006",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P077",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P005",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P022",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P074",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P012",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P047",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P077",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P006",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P009",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P056",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P062",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P028",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P060",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P046",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P038",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P039",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P025",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P009",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P077",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P045",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P062",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P065",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P064",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P031",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P042",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P068",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P070",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P056",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P025",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P009",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P006",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P002",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P061",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P023",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P007",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P054",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P006",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P056",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P062",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P070",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P077",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P034",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P004",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P050",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P055",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P052",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P009",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P045",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P056",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P070",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P077",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P014",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P016",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P035",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P032",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P041",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P045",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P025",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P062",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P070",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P009",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P049",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P048",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P075",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P059",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P020",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P077",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P062",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P006",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P025",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P045",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P072",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P073",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P024",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P001",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P029",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P070",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P009",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P062",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P045",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P006",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P010",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P021",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P069",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P008",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P079",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P015",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P022",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P027",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P005",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P074",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P045",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P025",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P006",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P056",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P070",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P074",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P013",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P047",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P027",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P022",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P046",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P028",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P039",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P038",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P071",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P047",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P005",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P013",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P074",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P027",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P030",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P042",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P065",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P064",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P018",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P022",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P013",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P027",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P074",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P005",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P061",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P054",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P023",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P067",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P003",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P047",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P005",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P015",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P022",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P074",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P050",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P004",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P055",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P052",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P034",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P012",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P074",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P015",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P013",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P027",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P033",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P041",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P051",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P035",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P032",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P047",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P013",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P074",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P022",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P027",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P059",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P078",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P011",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P075",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P048",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P074",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P012",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P027",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P013",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P022",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P072",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P036",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P076",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P001",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P024",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P013",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P022",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P005",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P012",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P047",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P037",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P043",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P069",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P066",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P079",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P028",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P026",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P038",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P071",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P063",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P070",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P045",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P025",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P056",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P077",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P026",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P071",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P038",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P060",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P039",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P022",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P005",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P047",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P012",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P027",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P038",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P026",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P063",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P071",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P060",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P042",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P064",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P018",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P030",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P031",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P028",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P060",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P038",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P026",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P046",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P007",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P023",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P054",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P061",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P019",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P063",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P026",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P071",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P039",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P038",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P034",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P055",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P044",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P058",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P050",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P060",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P026",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P038",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P071",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P028",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P032",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P014",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P051",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P035",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P016",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P063",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P038",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P026",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P071",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P046",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P059",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P011",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P020",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P075",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P078",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P026",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P046",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P063",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P039",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P071",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P024",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P072",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P076",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P073",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P029",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P063",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P039",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P038",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P060",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P026",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P066",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P021",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P043",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P010",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P069",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P064",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P068",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P018",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P031",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P065",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P062",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P070",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P006",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P025",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P077",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P065",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P042",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P018",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P068",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P040",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P015",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P027",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P005",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P022",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P047",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P064",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P030",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P068",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P018",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P040",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P038",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P046",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P063",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P026",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P071",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P018",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P065",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P042",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P030",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P040",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P002",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P023",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P003",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P019",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P054",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P065",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P068",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P040",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P064",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P030",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P034",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P058",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P044",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P055",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P050",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P030",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P065",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P064",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P031",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P042",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P035",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P032",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P014",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P053",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P033",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P064",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P065",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P040",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P042",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P031",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P078",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P020",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P017",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P075",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P048",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P031",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P042",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P068",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P018",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P064",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P072",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P080",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P073",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P076",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P036",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P065",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P042",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P040",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P064",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P068",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P021",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P010",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P066",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P008",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P079",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P007",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P054",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P067",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P003",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P002",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P045",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P056",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P025",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P009",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P077",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P002",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P061",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P019",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P067",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P003",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P013",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P015",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P012",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P027",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P047",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P061",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P002",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P023",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P054",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P019",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P060",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P038",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P046",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P071",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P039",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P007",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P054",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P003",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P002",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P019",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P068",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P031",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P042",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P064",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P040",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P003",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P023",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P054",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P019",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P061",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P057",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P058",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P052",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P044",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P050",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P061",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P067",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P003",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P007",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P054",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P041",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P053",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P014",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P032",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P016",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P061",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P067",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P002",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P023",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P019",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P020",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P059",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P048",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P017",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P075",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P007",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P023",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P003",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P061",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P019",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P029",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P072",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P036",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P001",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P080",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P023",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P061",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P054",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P003",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P002",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P079",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P069",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P037",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P021",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P043",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P050",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P004",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P058",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P034",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P055",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P006",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P045",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P070",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P056",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P025",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P058",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P052",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P034",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P057",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P050",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P005",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P027",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P022",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P012",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P074",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P004",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P034",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P057",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P044",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P052",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P038",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P063",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P028",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P046",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P039",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P004",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P050",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P034",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P055",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P052",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P040",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P030",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P018",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P042",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P064",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P044",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P050",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P004",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P058",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P057",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P003",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P067",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P054",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P023",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P019",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P044",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P034",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P050",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P052",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P055",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P051",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P041",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P053",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P033",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P035",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P044",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P057",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P004",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P050",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P055",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P011",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P017",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P075",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P078",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P049",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P055",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P057",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P044",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P058",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P052",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P029",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P076",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P073",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P024",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P080",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P052",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P004",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P057",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P034",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P055",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P079",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P069",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P066",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P010",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P021",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P033",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P051",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P014",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P016",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P032",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P070",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P006",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P045",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P056",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P062",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P033",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P014",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P016",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P035",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P032",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P022",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P013",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P074",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P047",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P012",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P014",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P051",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P033",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P035",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P053",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P063",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P038",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P028",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P060",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P071",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P033",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P032",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P051",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P035",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P053",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P030",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P018",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P068",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P065",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P042",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P041",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P016",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P032",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P051",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P014",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P054",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P003",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P019",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P007",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P067",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P051",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P053",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P041",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P032",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P014",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P004",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P050",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P044",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P057",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P052",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P016",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P051",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P032",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P014",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P033",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P059",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P049",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P017",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P020",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P048",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P051",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P033",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P041",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P035",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P032",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P036",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P072",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P080",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P029",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P024",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P035",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P033",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P053",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P051",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P014",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P037",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P043",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P069",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P079",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P010",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P017",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P011",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P049",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P048",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P059",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P045",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P025",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P070",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P077",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P009",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P078",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P011",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P020",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P048",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P049",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P047",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P027",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P074",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P005",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P013",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P059",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P048",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P020",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P049",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P011",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P026",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P039",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P071",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P028",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P063",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P017",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P049",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P011",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P078",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P075",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P068",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P042",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P018",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P031",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P030",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P048",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P011",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P020",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P075",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P017",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P023",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P007",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P054",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P003",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P002",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P078",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P049",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P075",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P017",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P011",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P058",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P050",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P052",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P004",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P055",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P020",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P049",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P017",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P075",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P078",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P032",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P016",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P053",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P014",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P041",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P059",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P017",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P078",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P075",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P011",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P073",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P080",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P036",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P001",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P029",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P049",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P075",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P020",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P078",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P059",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P066",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P037",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P008",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P021",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P079",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P001",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P036",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P024",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P073",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P076",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P045",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P009",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P056",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P070",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P025",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P036",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P072",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P029",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P001",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P024",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P012",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P047",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P015",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P005",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P022",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P001",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P080",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P072",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P029",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P076",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P046",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P071",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P026",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P063",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P039",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P036",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P001",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P072",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P073",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P029",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P065",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P040",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P068",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P042",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P064",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P029",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P001",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P080",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P036",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P072",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P067",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P023",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P007",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P019",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P054",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P076",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P080",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P036",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P024",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P029",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P052",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P055",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P058",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P034",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P004",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P029",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P001",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P073",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P080",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P072",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P016",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P014",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P051",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P035",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P041",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P076",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P024",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P001",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P036",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P072",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P049",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P017",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P059",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P020",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P078",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P024",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P076",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P072",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P036",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P073",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P010",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P069",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P066",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P008",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P021",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P043",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P069",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P037",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P079",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P066",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "eade",
+            "players": [
+                {
+                    "player_id": "P025",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P056",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P006",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P009",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P070",
+                    "points_scored": 0
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P021",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P008",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P037",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P079",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P043",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thti",
+            "players": [
+                {
+                    "player_id": "P074",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P027",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P012",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P005",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P047",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P079",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P021",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P008",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P010",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P043",
+                    "points_scored": 2
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "thsc",
+            "players": [
+                {
+                    "player_id": "P026",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P039",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P038",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P063",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P028",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P010",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P021",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P008",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P043",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P066",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "anst",
+            "players": [
+                {
+                    "player_id": "P042",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P040",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P064",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P031",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P030",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P010",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P008",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P066",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P069",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P079",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "chbu",
+            "players": [
+                {
+                    "player_id": "P002",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P054",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P019",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P067",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P003",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P079",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P021",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P010",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P037",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P043",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "piat",
+            "players": [
+                {
+                    "player_id": "P055",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P052",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P004",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P058",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P057",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P043",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P010",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P021",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P066",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P079",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "roth",
+            "players": [
+                {
+                    "player_id": "P053",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P035",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P032",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P033",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P051",
+                    "points_scored": 1
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P079",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P021",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P037",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P043",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P008",
+                    "points_scored": 0
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "viwa",
+            "players": [
+                {
+                    "player_id": "P020",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P011",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P078",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P049",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P075",
+                    "points_scored": 2
+                }
+            ]
+        }
+    },
+    {
+        "home_team": {
+            "team_id": "gopa",
+            "players": [
+                {
+                    "player_id": "P043",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P008",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P037",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P066",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P079",
+                    "points_scored": 1
+                }
+            ]
+        },
+        "visiting_team": {
+            "team_id": "mimu",
+            "players": [
+                {
+                    "player_id": "P024",
+                    "points_scored": 0
+                },
+                {
+                    "player_id": "P036",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P076",
+                    "points_scored": 2
+                },
+                {
+                    "player_id": "P029",
+                    "points_scored": 1
+                },
+                {
+                    "player_id": "P072",
+                    "points_scored": 1
+                }
+            ]
+        }
+    }
+]

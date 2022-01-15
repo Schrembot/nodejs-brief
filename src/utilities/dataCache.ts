@@ -38,7 +38,3 @@ export const loadData = async (file:string) => {
     }
     return cache[ file ]
 }
-
-export const passthroughData = (file:string) => {
-    return getCacheFileLocation(file)
-}

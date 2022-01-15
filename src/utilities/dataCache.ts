@@ -2,6 +2,7 @@ import fs, { ensureDir, pathExists } from 'fs-extra'
 import path from 'path'
 import axios from 'axios'
 
+const cache:{[key:string]:any;} = {};
 
 const getCacheLocation = () => {
     return path.join(__dirname, '..', 'cache')
@@ -19,28 +20,23 @@ export const downloadData = async ( targets:Array<string> ) => {
         let filepath = getCacheFileLocation(basename)
         let file_exists = await pathExists(filepath)
 
-        if ( basename.length ) {
-            if ( !file_exists) {
-                let response = await axios.get(item);
-                console.log(`✓ ${item} (${response.data.length} items)`)
-                await fs.writeFile( filepath, JSON.stringify(response.data, null, 4) )
-                return
-            }
-            console.log(`✓ ${item}`)
-            return
-        }
-        console.log(`Warning: ${item} has no valid basename`)
-        return
+        if ( file_exists ) return // This is fine, we've got the file already downloaded
+        if ( basename.length === 0 ) throw new Error(`Warning: ${item} has no valid basename`)
+
+        let response = await axios.get(item);
+        await fs.writeFile( filepath, JSON.stringify(response.data, null, 4) )
+        cache[ basename ] = response.data
+
+        console.log(`✓ ${item} (${response.data.length} items)`)
     }))
 }
 
 export const loadData = async (file:string) => {
-    try {
-        return await fs.readJSON(getCacheFileLocation(file))
-    } catch ( error ) {
-        console.log( error )
+    if ( !cache[ file ] ) {
+        let data = await fs.readJSON(getCacheFileLocation(file))
+        cache[ file ] = data
     }
-    return []
+    return cache[ file ]
 }
 
 export const passthroughData = (file:string) => {

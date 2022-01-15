@@ -1,14 +1,9 @@
-const teamsService = require('../services/teams')
+import { get, getAll } from '../services/teams'
 
-const getTeamsById = async ( ids:string|Array<string> ) => {
-    return await teamsService.get( ids )
+export const getTeamsById = async ( ids:string|Array<string> ) => {
+    return await get( ids )
 }
 
-const getAllTeams = async () => {
-    return await teamsService.getAll()
-}
-
-module.exports = {
-    getTeamsById,
-    getAllTeams
+export const getAllTeams = async () => {
+    return await getAll()
 }

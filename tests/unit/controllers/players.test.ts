@@ -5,6 +5,8 @@ dotenv.config();
 
 beforeAll( async () => {
     await downloadData([
+        `${process.env.LEAGUE_SOURCE_ROOT_URL}/players.json`,
+        `${process.env.LEAGUE_SOURCE_ROOT_URL}/results.json`,
         `${process.env.LEAGUE_SOURCE_ROOT_URL}/teams.json`,
     ])
 })
@@ -59,4 +61,79 @@ test('Can get all players if given null ID', async () => {
 test('Get nothing if passed non-string/non-array', async () => {
     let response = await playersController.getPlayersById(123) 
     expect( response.length ).toEqual( 0 )
+})
+
+test('Get stats for player P001', async () => {
+    let response = await playersController.getPlayerStatsById('P001')
+    expect(response.length).toBe(1)
+    expect(response).toEqual([
+        {
+            player_id: 'P001',
+            name: 'Stephen Radcliffe',
+            age: 40,
+            team_id: 'mimu',
+            team_name: 'The Mighty Mustangs',
+            games_played: 11,
+            points_scored: 3
+        }
+    ])
+})
+
+test('Get stats for player P001,P002,P003', async () => {
+    let response = await playersController.getPlayerStatsById(['P001','P002','P003'])
+    expect(response.length).toBe(3)
+    expect(response).toEqual([
+        {
+            player_id: 'P001',
+            name: 'Stephen Radcliffe',
+            age: 40,
+            team_id: 'mimu',
+            team_name: 'The Mighty Mustangs',
+            games_played: 11,
+            points_scored: 3
+        },
+        {
+            player_id: 'P002',
+            name: 'Bob Gaga',
+            age: 21,
+            team_id: 'chbu',
+            team_name: 'Charging Buffalos',
+            games_played: 10,
+            points_scored: 11
+        },
+        {
+            player_id: 'P003',
+            name: 'Stephen Martin',
+            age: 35,
+            team_id: 'chbu',
+            team_name: 'Charging Buffalos',
+            games_played: 13,
+            points_scored: 8
+        }
+    ])
+})
+
+test('Get stats for player P001,C123,P003', async () => {
+    let response = await playersController.getPlayerStatsById(['P001','C123','P003'])
+    expect(response.length).toBe(2)
+    expect(response).toEqual([
+        {
+            player_id: 'P001',
+            name: 'Stephen Radcliffe',
+            age: 40,
+            team_id: 'mimu',
+            team_name: 'The Mighty Mustangs',
+            games_played: 11,
+            points_scored: 3
+        },
+        {
+            player_id: 'P003',
+            name: 'Stephen Martin',
+            age: 35,
+            team_id: 'chbu',
+            team_name: 'Charging Buffalos',
+            games_played: 13,
+            points_scored: 8
+        }
+    ])
 })

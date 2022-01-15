@@ -1,9 +1,5 @@
-const resultsService = require('../services/results')
+import { getAll } from '../services/results'
 
-const getAllResults = async () => {
-    return await resultsService.getAll()
-}
-
-module.exports = {
-    getAllResults
+export const getAllResults = async () => {
+    return await getAll()
 }

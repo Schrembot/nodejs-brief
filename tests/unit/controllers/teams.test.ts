@@ -5,6 +5,8 @@ dotenv.config();
 
 beforeAll( async () => {
     await downloadData([
+        `${process.env.LEAGUE_SOURCE_ROOT_URL}/players.json`,
+        `${process.env.LEAGUE_SOURCE_ROOT_URL}/results.json`,
         `${process.env.LEAGUE_SOURCE_ROOT_URL}/teams.json`,
     ])
 })

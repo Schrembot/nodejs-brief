@@ -9,7 +9,7 @@ beforeAll( async () => {
     ])
 })
 
-test('Can get all 10 results', async () => {
+test('Can get all 90 results', async () => {
     let response = await resultsController.getAllResults() 
     expect( response.length ).toEqual( 90 )
 })

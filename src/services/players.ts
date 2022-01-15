@@ -7,7 +7,7 @@ export interface Player {
     team_id: string;
 }
 
-const get = async ( ids:string|Array<string> ) => {
+export const get = async ( ids:string|Array<string> ) => {
     let all:Array<Player> = await getAll()
     if ( !ids ) return all;
     
@@ -19,11 +19,6 @@ const get = async ( ids:string|Array<string> ) => {
     return all.filter( (item:Player) => ids.includes(item.player_id) )
 }
 
-const getAll = async () => {
+export const getAll = async () => {
     return await loadData('players.json')
-}
-
-module.exports = {
-    get,
-    getAll
 }

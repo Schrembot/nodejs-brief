@@ -1,5 +1,5 @@
 import { Router, Request, Response } from 'express'
-const routes = Router()
+const routes:Router = Router()
 
 routes.use('/teams', require('./teams'))
 routes.use('/players', require('./players'))

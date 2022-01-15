@@ -12,24 +12,24 @@ beforeAll( async () => {
 })
 
 test('Can get all 80 players', async () => {
-    let response = await playerController.getAll() 
+    let response = await playerController.getAllPlayers() 
     expect( response.length ).toEqual( 80 )
 })
 
 test('Can get one player as string, P001', async () => {
-    let response = await playerController.getById('P001')
+    let response = await playerController.getPlayersById('P001')
     expect( response.length ).toEqual( 1 )
     expect( response[0].player_id ).toEqual( 'P001' )
 })
 
 test('Can get one player as array, P001', async () => {
-    let response = await playerController.getById(['P001'])
+    let response = await playerController.getPlayersById(['P001'])
     expect( response.length ).toEqual( 1 )
     expect( response[0].player_id ).toEqual( 'P001' )
 })
 
 test('Can get three players, P001,P002,P003', async () => {
-    let response = await playerController.getById(['P001','P002','P003']) 
+    let response = await playerController.getPlayersById(['P001','P002','P003']) 
     expect( response.length ).toEqual( 3 )
     expect( response[0].player_id ).toEqual( 'P001' )
     expect( response[1].player_id ).toEqual( 'P002' )
@@ -37,28 +37,28 @@ test('Can get three players, P001,P002,P003', async () => {
 })
 
 test('Can get two players, with one error, P001,C123,P003', async () => {
-    let response = await playerController.getById(['P001','C123','P003']) 
+    let response = await playerController.getPlayersById(['P001','C123','P003']) 
     expect( response.length ).toEqual( 2 )
     expect( response[0].player_id ).toEqual( 'P001' )
     expect( response[1].player_id ).toEqual( 'P003' )
 })
 
 test('Can get all players if given * for ID', async () => {
-    let response = await playerController.getById(['*']) 
+    let response = await playerController.getPlayersById(['*']) 
     expect( response.length ).toEqual( 80 )
 })
 
 test('Can get all players if given empty array', async () => {
-    let response = await playerController.getById([]) 
+    let response = await playerController.getPlayersById([]) 
     expect( response.length ).toEqual( 80 )
 })
 
 test('Can get all players if given null ID', async () => {
-    let response = await playerController.getById(null) 
+    let response = await playerController.getPlayersById(null) 
     expect( response.length ).toEqual( 80 )
 })
 
 test('Get nothing if passed non-string/non-array', async () => {
-    let response = await playerController.getById(123) 
+    let response = await playerController.getPlayersById(123) 
     expect( response.length ).toEqual( 0 )
 })

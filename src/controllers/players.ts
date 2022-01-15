@@ -1,14 +1,14 @@
 const playersService = require('../services/players')
 
-const getById = async ( ids:string|Array<string> ) => {
+const getPlayersById = async ( ids:string|Array<string> ) => {
     return await playersService.get( ids )
 }
 
-const getAll = async () => {
+const getAllPlayers = async () => {
     return await playersService.getAll()
 }
 
 module.exports = {
-    getById,
-    getAll
+    getPlayersById,
+    getAllPlayers
 }

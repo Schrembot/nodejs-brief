@@ -1,5 +1,5 @@
 import { Request, Response, Router } from 'express'
-import { loadData, passthroughData } from '../utilities/dataCache'
+import { passthroughData } from '../utilities/dataCache'
 
 const routes = Router();
 

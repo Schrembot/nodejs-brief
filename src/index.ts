@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import compression from 'compression'
 import { validateEnvironment } from './utilities/validateEnvironment'
-import { downloadData } from './utilities/dataCache'
+import { downloadData, getCacheKeys } from './utilities/dataCache'
 
 dotenv.config();
 try {
@@ -36,5 +36,5 @@ app.use('/', require('./routes'))
         `${process.env.LEAGUE_SOURCE_ROOT_URL}/teams.json`,
     ])
 
-    app.listen(PORT, () => console.log(`Running on port ${PORT}`));
+    app.listen(PORT, () => console.log(`Running on port ${PORT}`, getCacheKeys()));
 })()

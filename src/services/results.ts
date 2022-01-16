@@ -27,11 +27,11 @@ export interface StatsForTeam {
     games_played: number
 }
 
-export const getAll = async () => {
+export const getAll = async ():Promise<Array<Result>> => {
     return await loadData('results.json')
 }
 
-export const getStatsByPlayerId = async ( id:string ) => {
+export const getStatsByPlayerId = async ( id:string ):Promise<StatsForPlayer> => {
     let results = await getAll()
     
     let stats:StatsForPlayer = {
@@ -53,11 +53,11 @@ export const getStatsByPlayerId = async ( id:string ) => {
     return stats
 }
 
-const tallyScoreForPlayers = ( players:Array<ResultForPlayer> ) => {
+const tallyScoreForPlayers = ( players:Array<ResultForPlayer> ):number => {
     return players.reduce( (prev:number, current:ResultForPlayer)=> prev += current.points_scored, 0 )
 }
 
-export const getStatsByTeamId = async ( id:string ) => {
+export const getStatsByTeamId = async ( id:string ):Promise<StatsForTeam> => {
     let results = await getAll()
     
     let stats:StatsForTeam = {

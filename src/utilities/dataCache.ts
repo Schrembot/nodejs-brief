@@ -7,11 +7,11 @@ const cache:{[key:string]:any;} = {};
 export const getCacheLocation = () => {
     return path.join(__dirname, '..', 'cache')
 }
-export const getCacheFileLocation = ( file:string ) => {
+export const getCacheFileLocation = ( file:string ):string => {
     return `${path.join(getCacheLocation(), file)}`
 }
 
-export const downloadData = async ( targets:Array<string> ) => {
+export const downloadData = async ( targets:Array<string> ):Promise<any> => {
     
     await ensureDir( getCacheLocation() )
 
@@ -30,7 +30,7 @@ export const downloadData = async ( targets:Array<string> ) => {
     }))
 }
 
-export const loadData = async (file:string) => {
+export const loadData = async (file:string):Promise<any> => {
     if ( !cache[ file ] ) {
         let data = await fs.readJSON(getCacheFileLocation(file))
         cache[ file ] = data

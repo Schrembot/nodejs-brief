@@ -1,0 +1,333 @@
+openapi: 3.0.1
+info:
+  title: Tournament API
+  description: Tournament API Documentation (Read-only). Lookup Players, Teams and Results.
+  version: 1.0.0
+servers:
+- url: http://localhost:8099/
+paths:
+  /results:
+    get:
+      tags:
+      - Results
+      summary: List all results
+      operationId: getResults
+      parameters:
+      - name: x-api-key
+        in: header
+        schema:
+          type: string
+      responses:
+        200:
+          description: List of Results
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Results'
+        401:
+          description: Unauthorized, no API key given
+          content: {}
+        403:
+          description: Forbidden, API key is invalid
+          content: {}
+      security:
+      - api_key: []
+  /players:
+    get:
+      tags:
+      - Player
+      summary: List all players
+      operationId: getPlayers
+      parameters:
+      - name: x-api-key
+        in: header
+        schema:
+          type: string
+      responses:
+        200:
+          description: List of Players
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Players'
+        401:
+          description: Unauthorized, no API key given
+          content: {}
+        403:
+          description: Forbidden, API key is invalid
+          content: {}
+      security:
+      - api_key: []
+  /players/{ids}:
+    get:
+      tags:
+      - Player
+      summary: List one or more players by ID
+      operationId: getPlayersById
+      parameters:
+      - name: ids
+        in: path
+        description: ID of each player requestd, comma-separated
+        required: true
+        schema:
+          type: string
+      - name: x-api-key
+        in: header
+        schema:
+          type: string
+      responses:
+        200:
+          description: List of Players requested
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Players'
+        401:
+          description: Unauthorized, no API key given
+          content: {}
+        403:
+          description: Forbidden, API key is invalid
+          content: {}
+      security:
+      - api_key: []
+  /players/{ids}/stats:
+    get:
+      tags:
+      - Player
+      summary: List one or more player stats by ID
+      operationId: getPlayerStatsById
+      parameters:
+      - name: ids
+        in: path
+        description: ID of each player requestd, comma-separated
+        required: true
+        schema:
+          type: string
+      - name: x-api-key
+        in: header
+        schema:
+          type: string
+      responses:
+        200:
+          description: List of Player Stats requested
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StatsForPlayers'
+        401:
+          description: Unauthorized, no API key given
+          content: {}
+        403:
+          description: Forbidden, API key is invalid
+          content: {}
+      security:
+      - api_key: []
+  /teams:
+    get:
+      tags:
+      - Team
+      summary: List all teams
+      operationId: getTeams
+      parameters:
+      - name: x-api-key
+        in: header
+        schema:
+          type: string
+      responses:
+        200:
+          description: List of Teams
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Teams'
+        401:
+          description: Unauthorized, no API key given
+          content: {}
+        403:
+          description: Forbidden, API key is invalid
+          content: {}
+      security:
+      - api_key: []
+  /teams/{ids}:
+    get:
+      tags:
+      - Team
+      summary: List one or more teams by ID
+      operationId: getTeamsById
+      parameters:
+      - name: ids
+        in: path
+        description: ID of each team, comma-separated
+        required: true
+        schema:
+          type: string
+      - name: x-api-key
+        in: header
+        schema:
+          type: string
+      responses:
+        200:
+          description: List of Teams requested
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Teams'
+        401:
+          description: Unauthorized, no API key given
+          content: {}
+        403:
+          description: Forbidden, API key is invalid
+          content: {}
+      security:
+      - api_key: []
+  /teams/{ids}/stats:
+    get:
+      tags:
+      - Team
+      summary: List one or more team stats by ID
+      operationId: getTeamsStatsById
+      parameters:
+      - name: ids
+        in: path
+        description: ID of each team requestd, comma-separated
+        required: true
+        schema:
+          type: string
+      - name: x-api-key
+        in: header
+        schema:
+          type: string
+      responses:
+        200:
+          description: List of Teams Stats requested
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StatsForTeams'
+        401:
+          description: Unauthorized, no API key given
+          content: {}
+        403:
+          description: Forbidden, API key is invalid
+          content: {}
+      security:
+      - api_key: []
+components:
+  schemas:
+    Results:
+      type: array
+      items:
+        type: object
+        properties:
+          home_team:
+            $ref: '#/components/schemas/ResultForTeam'
+          visiting_team:
+            $ref: '#/components/schemas/ResultForTeam'
+    ResultForTeam:
+      type: object
+      properties:
+        team_id:
+          type: string
+        players:
+          type: array
+          items:
+            $ref: '#/components/schemas/ResultForPlayer'
+    ResultForPlayer:
+      type: object
+      properties:
+        player_id:
+          type: string
+        points_scored:
+          type: integer
+          format: int64
+    StatsForPlayers:
+      type: array
+      items:
+        $ref: '#/components/schemas/StatsForPlayer'
+    StatsForPlayer:
+      type: object
+      properties:
+        player_id:
+          type: string
+        name:
+          type: string
+        age:
+          type: integer
+          format: int64
+        team_id:
+          type: string
+        team_name:
+          type: string
+        points_scored:
+          type: integer
+          format: int64
+        games_played:
+          type: integer
+          format: int64
+    StatsForTeams:
+      type: array
+      items:
+        $ref: '#/components/schemas/StatsForTeam'
+    StatsForTeam:
+      type: object
+      properties:
+        team_id:
+          type: string
+        team_name:
+          type: string
+        home_wins:
+          type: integer
+          format: int64
+        home_losses:
+          type: integer
+          format: int64
+        home_draws:
+          type: integer
+          format: int64
+        away_wins:
+          type: integer
+          format: int64
+        away_losses:
+          type: integer
+          format: int64
+        away_draws:
+          type: integer
+          format: int64
+        points_scored:
+          type: integer
+          format: int64
+        games_played:
+          type: integer
+          format: int64
+    Teams:
+      type: array
+      items:
+        $ref: '#/components/schemas/Team'
+    Team:
+      type: object
+      properties:
+        team_id:
+          type: string
+        name:
+          type: string
+    Players:
+      type: array
+      items:
+        $ref: '#/components/schemas/Player'
+    Player:
+      type: object
+      properties:
+        player_id:
+          type: string
+        name:
+          type: string
+        age:
+          type: integer
+          format: int64
+        team_id:
+          type: string
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: x-api-key
+      in: header

@@ -8,7 +8,12 @@ import { validateEnvironment } from './utilities/validateEnvironment'
 import { downloadData } from './utilities/dataCache'
 
 dotenv.config();
-validateEnvironment( process.env )
+try {
+    validateEnvironment( process.env )
+} catch ( error ) {
+    console.log( error )
+    process.exit();
+}
 
 const PORT = process.env.LEAGUE_SERVER_PORT;
 const app: Express = express();
@@ -31,5 +36,5 @@ app.use('/', require('./routes'))
         `${process.env.LEAGUE_SOURCE_ROOT_URL}/teams.json`,
     ])
 
-    app.listen(PORT, () => console.log(`Running on ${PORT} ⚡`));
+    app.listen(PORT, () => console.log(`Running on port ${PORT}`));
 })()

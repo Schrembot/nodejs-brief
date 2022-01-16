@@ -1,4 +1,4 @@
-export const validateEnvironment = ( environment:any ):void => {
+export const validateEnvironment = ( environment:any ):boolean => {
     let required = [
         'LEAGUE_SERVER_PORT',
         'LEAGUE_SOURCE_ROOT_URL',
@@ -7,7 +7,8 @@ export const validateEnvironment = ( environment:any ):void => {
     let missing = required.filter(item => environment[item] === undefined || environment[item] === '')
     
     if (missing.length) {
-        console.log(`Missing Environment Variables: ${missing.join()}`)
-        process.exit();
+        throw new Error(`Missing Environment Variables: ${missing.join()}`)
     }
+    
+    return true
 }

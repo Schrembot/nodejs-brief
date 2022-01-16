@@ -22,7 +22,8 @@ With this API, you will be able to retrieve stats on each **Player** and **Team*
 2. Clone or download this project, and then navigate to the project folder in your terminal.
 3. Still in your terminal, type `npm i` and press Enter to begin installing the project's dependencies.
 4. In the project's root folder, create a copy of `.env.example` and rename it `.env`.  In this file, you will need to set the **LEAGE_API_KEY** to your API key.
-5. Finally, type `npm run serve` and press Enter to start the server.
+5. Type `npm run serve` and press Enter to start the server for development, or
+6. Type `npm run start` and press Enter to start the server for production.
 
 ## Using Docker
 

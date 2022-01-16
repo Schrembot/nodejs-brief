@@ -1,14 +1,15 @@
-# Tournament API
+# NodeJS Brief: Tournament API
 
 This API enables your client to interact with the Tournament's dataset.   Please note, this is a read-only API and you will require an API key to get started.
 
  1. [Objectives](#objectives)
  2. [Installation](#installation)
- 3. [Troubleshooting](#troubleshooting)
- 4. [Routes](#routes)
- 5. [API Specification](#api-specification) 
- 6. [Testing](#testing)
- 7. [Validation](#validation)
+ 3. [Using Docker](#using-docker)
+ 4. [Troubleshooting](#troubleshooting)
+ 5. [Routes](#routes)
+ 6. [API Specification](#api-specification) 
+ 7. [Testing](#testing)
+ 8. [Validation](#validation)
 
 ## Objectives
 
@@ -21,6 +22,13 @@ With this API, you will be able to retrieve stats on each **Player** and **Team*
 3. Still in your terminal, type `npm i` and press Enter to begin installing the project's dependencies.
 4. In the project's root folder, create a copy of `.env.example` and rename it `.env`.  In this file, you will need to set the **LEAGE_API_KEY** to your API key.
 5. Finally, type `npm run serve` and press Enter to start the server.
+
+## Using Docker
+
+If you prefer using Docker, use the following commands from the project root:
+
+`docker build -t nodejs-brief:latest .`
+`docker run -p 8099:8099 nodejs-brief:latest`
 
 ## Troubleshooting
 

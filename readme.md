@@ -10,6 +10,7 @@ This API enables your client to interact with the Tournament's dataset.   Please
  6. [API Specification](#api-specification) 
  7. [Testing](#testing)
  8. [Validation](#validation)
+ 9. [To Do](#todo)
 
 ## Objectives
 
@@ -65,3 +66,8 @@ Use the command `npm test` to run the test suite and view code coverage.
 ## Validation
 
 Use the command `npm run validate` to run Imagination's preset validation script.
+
+## To Do
+
+- Logging
+- Metrics

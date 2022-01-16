@@ -4,7 +4,7 @@ export const validateEnvironment = ( environment:any ):boolean => {
         'LEAGUE_SOURCE_ROOT_URL',
         'LEAGUE_API_KEY'
     ];
-    let missing = required.filter(item => environment[item] === undefined || environment[item] === '')
+    let missing = required.filter(item => environment[item] === undefined || environment[item] === null || environment[item] === '')
     
     if (missing.length) {
         throw new Error(`Missing Environment Variables: ${missing.join()}`)

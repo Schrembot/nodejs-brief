@@ -1,6 +1,5 @@
 import { Router } from 'express'
-
-const routes:Router = require('../../../src/routes/index')
+import { getRoutes } from '../../../src/routes'
 
 const mapStack = ( stack ) => {
     return stack?.map( layer => {
@@ -13,6 +12,7 @@ const mapStack = ( stack ) => {
 }
 
 test('Router is loaded', () => {
+    const routes:Router = getRoutes()
     let routes_as_regex = mapStack(routes.stack)
     expect(routes_as_regex).toEqual(
         [

@@ -6,6 +6,7 @@ import cors from 'cors';
 import compression from 'compression'
 import { validateEnvironment } from './utilities/validateEnvironment'
 import { downloadData, getCacheKeys } from './utilities/dataCache'
+import { getRoutes } from './routes' 
 
 dotenv.config();
 try {
@@ -25,7 +26,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(require('./middleware/authorisation'))
-app.use('/', require('./routes'))
+app.use('/', getRoutes())
 
 ;(async () => {
     // Preload and store all our data.

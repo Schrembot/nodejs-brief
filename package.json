@@ -12,7 +12,8 @@
     "serve": "cross-env NODE_ENV=development concurrently \"tsc --watch\" \"nodemon -q dist/index.js --ignore ./dist/cache/\"",
     "prestart": "npm run build",
     "start": "cross-env NODE_ENV=production node dist/index.js",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "validate": "node validate.js"
   },
   "repository": {
     "type": "git",

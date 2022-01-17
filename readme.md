@@ -18,18 +18,40 @@ With this API, you will be able to retrieve stats on each **Player** and **Team*
 
 ## Installation
 
-1. You will need [NodeJS](https://nodejs.org/en/download/) installed to host this API.  In your terminal or command line application, type in `node -v` and press Enter to show which version is installed.   A response of `v14.0.0` or above will work. 
-2. Clone or download this project, and then navigate to the project folder in your terminal.
-3. Still in your terminal, type `npm i` and press Enter to begin installing the project's dependencies.
-4. In the project's root folder, create a copy of `.env.example` and rename it `.env`.  In this file, you will need to set a **LEAGE_API_KEY** which will then be required to authorise your requests.
-5. Finally, type `npm run serve` and press Enter to start the server.
+1.  Install [Node.js](http://nodejs.org/).  This application requires Node v14 or above 
+2.  Clone the github repository:
+    ```
+    git clone https://github.com/Schrembot/nodejs-brief.git
+    ```
+3.  Go to the directory:
+    ```
+    cd nodejs-brief
+    ```
+4.  Install node packages:
+    ```
+    npm install
+    ```
+5. In the project's root folder, create a copy of `.env.example` and rename it `.env`.  In this file, you will need to set a **LEAGE_API_KEY** which will then be used to authorise your requests.
+    ```
+    LEAGUE_API_KEY=1234-1234-1234
+    ```
+6. Finally, run one of the following commands to run the application.  For development:
+    ```
+    npm run serve
+    ```
+    or for production:
+    ```
+    npm run start
+    ```
 
 ## Using Docker
 
 If you prefer using Docker, use the following commands from the project root:
 
-`docker build -t nodejs-brief:latest .`
-`docker run -p 8099:8099 nodejs-brief:latest`
+    ```
+    docker build -t nodejs-brief:latest .
+    docker run -p 8099:8099 nodejs-brief:latest
+    ```
 
 ## Troubleshooting
 

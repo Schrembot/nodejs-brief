@@ -48,10 +48,8 @@ With this API, you will be able to retrieve stats on each **Player** and **Team*
 
 If you prefer using Docker, use the following commands from the project root:
 
-    ```
     docker build -t nodejs-brief:latest .
     docker run -p 8099:8099 nodejs-brief:latest
-    ```
 
 ## Troubleshooting
 

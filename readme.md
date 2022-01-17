@@ -10,7 +10,8 @@ This API enables your client to read the Tournament's dataset.
  6. [API Specification](#api-specification) 
  7. [Testing](#testing)
  8. [Validation](#validation)
- 9. [To Do](#todo)
+ 9. [Metrics](#metrics)
+ 10. [To Do](#todo)
 
 ## Objectives
 
@@ -89,7 +90,10 @@ Use the command `npm test` to run the test suite and view code coverage.
 
 Use the command `npm run validate` to run Imagination's preset validation script.  This script will only validate if the **LEAGE_API_KEY** is set to **06c47d56-614f-4577-8e85-c88e31c5e8e5**
 
+## Metrics
+
+Metrics are implemented with [Prometheus](https://prometheus.io/) with data exposed at `/metrics`
+
 ## To Do
 
 - Logging
-- Metrics

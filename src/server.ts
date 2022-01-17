@@ -7,6 +7,7 @@ import compression from 'compression'
 import { validateEnvironment } from './utilities/validateEnvironment'
 import { downloadData } from './utilities/dataCache'
 import { getRoutes } from './routes' 
+import apimetrics from 'prometheus-api-metrics'
 
 export const setupServer = async ( environment:any={} ):Promise<Express|null> => {
 
@@ -26,10 +27,11 @@ export const setupServer = async ( environment:any={} ):Promise<Express|null> =>
     app.use(cors())
     app.use(helmet());
     app.use(compression())
+    app.use(apimetrics())
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: true }));
     
-    app.use(require('./middleware/authorisation'))
+    app.use( require('./middleware/authorisation') )
     app.use('/', getRoutes())
     
     

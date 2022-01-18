@@ -61,6 +61,8 @@ Make sure you copy `.env.example` and set the API key correctly.  Default values
 
 If you are seeing HTTP 401 or 403 responses from the server, it means your API key is incorrectly set in your request headers.   The value you set in the `.env` file for **LEAGUE_API_KEY** is what you need to send through the **x-api-key** header in your requests.
 
+If any of the data sources set in **LEAGUE_SOURCE_ROOT_URL** are unreachable on server launch, an error will be raised and the server will not start up.   Ensure the data sources are available on the target server and that the files are readable from your device.
+
 ## Routes
 
 You will find the following endpoints in this API:

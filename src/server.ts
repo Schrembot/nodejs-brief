@@ -5,18 +5,28 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import compression from 'compression'
 import { validateEnvironment } from './utilities/validateEnvironment'
-import { downloadData } from './utilities/dataCache'
+import { downloadData, loadData } from './utilities/dataCache'
 import { getRoutes } from './routes' 
 import apimetrics from 'prometheus-api-metrics'
 
-export const setupServer = async ( environment:any={} ):Promise<Express|null> => {
+export const setupServer = async ( environment:any={}, files:Array<string>=[] ):Promise<Express|null> => {
 
     dotenv.config();
     // Overwrite any environment variables if needed
     process.env = { ...process.env, ...environment }
+    const data:Array<string> = files.length ? files : ['players.json', 'results.json', 'teams.json'].map( item => `${process.env.LEAGUE_SOURCE_ROOT_URL}/${item}` )
 
     try {
         validateEnvironment( process.env )
+    } catch ( error ) {
+        console.log( error )
+        return null
+    }
+    
+    // Preload and store all our data.
+    // This will be downloaded each time we recomple the application
+    try {
+        await downloadData( data )
     } catch ( error ) {
         console.log( error )
         return null
@@ -33,15 +43,6 @@ export const setupServer = async ( environment:any={} ):Promise<Express|null> =>
     
     app.use( require('./middleware/authorisation') )
     app.use('/', getRoutes())
-    
-    
-    // Preload and store all our data.
-    // This will be downloaded each time we recomple the application
-    await downloadData([
-        `${process.env.LEAGUE_SOURCE_ROOT_URL}/players.json`,
-        `${process.env.LEAGUE_SOURCE_ROOT_URL}/results.json`,
-        `${process.env.LEAGUE_SOURCE_ROOT_URL}/teams.json`,
-    ])
 
     return app
 }

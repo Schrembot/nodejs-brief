@@ -15,3 +15,7 @@ test('Can download and cache a file', async () => {
 
     await fs.remove(filepath)
 })
+
+test('Can report an error if file is not downloaded correctly', async () => {
+    await expect( downloadData(['http://localhost/missing.txt']) ).rejects.toThrow( `Failed to download http://localhost/missing.txt (404)` )
+})

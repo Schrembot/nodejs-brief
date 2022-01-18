@@ -11,13 +11,14 @@ test('Server tests', async () => {
     expect( app ).toBeNull()
     expect( console.log ).toHaveBeenCalledTimes(1)
 
-
     app = await setupServer({
         LEAGUE_SERVER_PORT: 3001
-    })
-    expect( app ).not.toBeNull()
+    }, ['missing.json'])
+    expect( console.log ).toHaveBeenCalledTimes(2)
+    expect( app ).toBeNull()
 
 
+    // Set up the server correctly now
     app = await setupServer()
     expect( app ).not.toBeNull()
 
@@ -35,6 +36,14 @@ test('Server tests', async () => {
 
     let not_found = await request(app).get('/bad_url').set({ 'x-api-Key': process.env.LEAGUE_API_KEY })
     expect(not_found.statusCode).toEqual(404)
+
+
+    // Metrics
+    let metrics_noauth = await request(app).get('/metrics')
+    expect(metrics_noauth.statusCode).toEqual(200)
+    
+    let metrics_withauth = await request(app).get('/metrics').set({ 'x-api-Key': process.env.LEAGUE_API_KEY })
+    expect(metrics_withauth.statusCode).toEqual(200)
 
 
     // Unused verbs

@@ -1,6 +1,7 @@
 import fs, { ensureDir, pathExists } from 'fs-extra'
 import path from 'path'
-import axios from 'axios'
+import axios, { AxiosError } from 'axios'
+import e from 'express';
 
 const cache:{[key:string]:any;} = {};
 
@@ -21,10 +22,15 @@ export const downloadData = async ( targets:Array<string> ):Promise<any> => {
         let file_exists = await pathExists(filepath)
 
         if ( !file_exists ) {
-            let response = await axios.get(item);
-            await fs.writeFile( filepath, JSON.stringify(response.data, null, 4) )
-            cache[ basename ] = response.data
-            return
+            try {
+                let response = await axios.get(item);
+                await fs.writeFile( filepath, JSON.stringify(response.data, null, 4) )
+                cache[ basename ] = response.data
+                return
+
+            } catch ( error:AxiosError<any>|any ) {
+                throw new Error(`Failed to download ${item} (${ error.code ?? error.response?.status})`);
+            }
         } 
         await loadData(basename)
     }))

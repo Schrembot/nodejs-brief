@@ -19,7 +19,7 @@ export const getPlayerStatsById = async ( ids:string|Array<string> ):Promise<Arr
     let players:Array<iPlayer> = await getPlayersById( ids )
 
     // For each player
-    return await Promise.all<PlayerStats>( players.map( (player:iPlayer) => {
+    return Promise.all<PlayerStats>( players.map( (player:iPlayer) => {
         return new Promise(async (resolve, reject)=>{
             // Add their team name
             let team:Array<iTeam> = await getTeamsById(player.team_id)

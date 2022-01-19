@@ -1,6 +1,6 @@
 import fs, { ensureDir, pathExists } from 'fs-extra'
 import path from 'path'
-import axios, { AxiosError } from 'axios'
+import axios from 'axios'
 
 const cache:{[key:string]:any;} = {};
 
@@ -27,7 +27,7 @@ export const downloadData = async ( targets:Array<string> ):Promise<any> => {
                 cache[ basename ] = response.data
                 return
 
-            } catch ( error:AxiosError<any>|any ) {
+            } catch ( error:any ) {
                 throw new Error(`Failed to download ${item} (${ error.code ?? error.response?.status})`);
             }
         } 

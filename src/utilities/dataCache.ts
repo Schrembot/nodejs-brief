@@ -1,7 +1,6 @@
 import fs, { ensureDir, pathExists } from 'fs-extra'
 import path from 'path'
 import axios, { AxiosError } from 'axios'
-import e from 'express';
 
 const cache:{[key:string]:any;} = {};
 

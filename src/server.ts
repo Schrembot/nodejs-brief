@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import compression from 'compression'
 import { validateEnvironment } from './utilities/validateEnvironment'
-import { downloadData, loadData } from './utilities/dataCache'
+import { downloadData } from './utilities/dataCache'
 import { getRoutes } from './routes' 
 import apimetrics from 'prometheus-api-metrics'
 

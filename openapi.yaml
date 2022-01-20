@@ -4,26 +4,26 @@ info:
   description: Tournament API Documentation (Read-only). Lookup Players, Teams and Results.
   version: 1.0.0
 servers:
-- url: http://localhost:8099/
+  - url: http://localhost:8099/
 paths:
   /results:
     get:
       tags:
-      - Results
+        - Results
       summary: List all results
       operationId: getResults
       parameters:
-      - name: x-api-key
-        in: header
-        schema:
-          type: string
+        - name: x-api-key
+          in: header
+          schema:
+            type: string
       responses:
         200:
           description: List of Results
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Results'
+                $ref: "#/components/schemas/Results"
         401:
           description: Unauthorized, no API key given
           content: {}
@@ -31,25 +31,25 @@ paths:
           description: Forbidden, API key is invalid
           content: {}
       security:
-      - api_key: []
+        - api_key: []
   /players:
     get:
       tags:
-      - Player
+        - Player
       summary: List all players
       operationId: getPlayers
       parameters:
-      - name: x-api-key
-        in: header
-        schema:
-          type: string
+        - name: x-api-key
+          in: header
+          schema:
+            type: string
       responses:
         200:
           description: List of Players
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Players'
+                $ref: "#/components/schemas/Players"
         401:
           description: Unauthorized, no API key given
           content: {}
@@ -57,31 +57,31 @@ paths:
           description: Forbidden, API key is invalid
           content: {}
       security:
-      - api_key: []
+        - api_key: []
   /players/{ids}:
     get:
       tags:
-      - Player
+        - Player
       summary: List one or more players by ID
       operationId: getPlayersById
       parameters:
-      - name: ids
-        in: path
-        description: ID of each player requestd, comma-separated
-        required: true
-        schema:
-          type: string
-      - name: x-api-key
-        in: header
-        schema:
-          type: string
+        - name: ids
+          in: path
+          description: ID of each player requestd, comma-separated
+          required: true
+          schema:
+            type: string
+        - name: x-api-key
+          in: header
+          schema:
+            type: string
       responses:
         200:
           description: List of Players requested
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Players'
+                $ref: "#/components/schemas/Players"
         401:
           description: Unauthorized, no API key given
           content: {}
@@ -89,31 +89,31 @@ paths:
           description: Forbidden, API key is invalid
           content: {}
       security:
-      - api_key: []
+        - api_key: []
   /players/{ids}/stats:
     get:
       tags:
-      - Player
+        - Player
       summary: List one or more player stats by ID
       operationId: getPlayerStatsById
       parameters:
-      - name: ids
-        in: path
-        description: ID of each player requestd, comma-separated
-        required: true
-        schema:
-          type: string
-      - name: x-api-key
-        in: header
-        schema:
-          type: string
+        - name: ids
+          in: path
+          description: ID of each player requestd, comma-separated
+          required: true
+          schema:
+            type: string
+        - name: x-api-key
+          in: header
+          schema:
+            type: string
       responses:
         200:
           description: List of Player Stats requested
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/StatsForPlayers'
+                $ref: "#/components/schemas/StatsForPlayers"
         401:
           description: Unauthorized, no API key given
           content: {}
@@ -121,25 +121,25 @@ paths:
           description: Forbidden, API key is invalid
           content: {}
       security:
-      - api_key: []
+        - api_key: []
   /teams:
     get:
       tags:
-      - Team
+        - Team
       summary: List all teams
       operationId: getTeams
       parameters:
-      - name: x-api-key
-        in: header
-        schema:
-          type: string
+        - name: x-api-key
+          in: header
+          schema:
+            type: string
       responses:
         200:
           description: List of Teams
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Teams'
+                $ref: "#/components/schemas/Teams"
         401:
           description: Unauthorized, no API key given
           content: {}
@@ -147,31 +147,31 @@ paths:
           description: Forbidden, API key is invalid
           content: {}
       security:
-      - api_key: []
+        - api_key: []
   /teams/{ids}:
     get:
       tags:
-      - Team
+        - Team
       summary: List one or more teams by ID
       operationId: getTeamsById
       parameters:
-      - name: ids
-        in: path
-        description: ID of each team, comma-separated
-        required: true
-        schema:
-          type: string
-      - name: x-api-key
-        in: header
-        schema:
-          type: string
+        - name: ids
+          in: path
+          description: ID of each team, comma-separated
+          required: true
+          schema:
+            type: string
+        - name: x-api-key
+          in: header
+          schema:
+            type: string
       responses:
         200:
           description: List of Teams requested
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Teams'
+                $ref: "#/components/schemas/Teams"
         401:
           description: Unauthorized, no API key given
           content: {}
@@ -179,31 +179,31 @@ paths:
           description: Forbidden, API key is invalid
           content: {}
       security:
-      - api_key: []
+        - api_key: []
   /teams/{ids}/stats:
     get:
       tags:
-      - Team
+        - Team
       summary: List one or more team stats by ID
       operationId: getTeamsStatsById
       parameters:
-      - name: ids
-        in: path
-        description: ID of each team requestd, comma-separated
-        required: true
-        schema:
-          type: string
-      - name: x-api-key
-        in: header
-        schema:
-          type: string
+        - name: ids
+          in: path
+          description: ID of each team requestd, comma-separated
+          required: true
+          schema:
+            type: string
+        - name: x-api-key
+          in: header
+          schema:
+            type: string
       responses:
         200:
           description: List of Teams Stats requested
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/StatsForTeams'
+                $ref: "#/components/schemas/StatsForTeams"
         401:
           description: Unauthorized, no API key given
           content: {}
@@ -211,7 +211,7 @@ paths:
           description: Forbidden, API key is invalid
           content: {}
       security:
-      - api_key: []
+        - api_key: []
 components:
   schemas:
     Results:
@@ -220,9 +220,9 @@ components:
         type: object
         properties:
           home_team:
-            $ref: '#/components/schemas/ResultForTeam'
+            $ref: "#/components/schemas/ResultForTeam"
           visiting_team:
-            $ref: '#/components/schemas/ResultForTeam'
+            $ref: "#/components/schemas/ResultForTeam"
     ResultForTeam:
       type: object
       properties:
@@ -231,7 +231,7 @@ components:
         players:
           type: array
           items:
-            $ref: '#/components/schemas/ResultForPlayer'
+            $ref: "#/components/schemas/ResultForPlayer"
     ResultForPlayer:
       type: object
       properties:
@@ -243,7 +243,7 @@ components:
     StatsForPlayers:
       type: array
       items:
-        $ref: '#/components/schemas/StatsForPlayer'
+        $ref: "#/components/schemas/StatsForPlayer"
     StatsForPlayer:
       type: object
       properties:
@@ -267,7 +267,7 @@ components:
     StatsForTeams:
       type: array
       items:
-        $ref: '#/components/schemas/StatsForTeam'
+        $ref: "#/components/schemas/StatsForTeam"
     StatsForTeam:
       type: object
       properties:
@@ -302,7 +302,7 @@ components:
     Teams:
       type: array
       items:
-        $ref: '#/components/schemas/Team'
+        $ref: "#/components/schemas/Team"
     Team:
       type: object
       properties:
@@ -313,7 +313,7 @@ components:
     Players:
       type: array
       items:
-        $ref: '#/components/schemas/Player'
+        $ref: "#/components/schemas/Player"
     Player:
       type: object
       properties:

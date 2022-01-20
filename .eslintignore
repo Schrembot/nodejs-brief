@@ -1,0 +1,8 @@
+/node_modules
+/dist
+/coverage
+/report
+/test
+.eslintrc.js
+babel.config.js
+validate.js

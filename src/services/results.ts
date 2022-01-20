@@ -1,4 +1,4 @@
-import { loadData } from "../utilities/dataCache";
+import { loadData } from '../utilities/dataCache'
 
 export interface ResultForPlayer {
     player_id: string,
@@ -28,95 +28,92 @@ export interface StatsForTeam {
 }
 
 export const getAll = async ():Promise<Array<Result>> => {
-    return await loadData('results.json')
+  return await loadData('results.json')
 }
 
-export const getStatsByPlayerId = async ( id:string ):Promise<StatsForPlayer> => {
-    let results = await getAll()
-    
-    let stats:StatsForPlayer = {
-        games_played: 0,
-        points_scored: 0
-    }
+export const getStatsByPlayerId = async (id:string):Promise<StatsForPlayer> => {
+  const results = await getAll()
 
-    results.forEach( (game:Result) => {
-        // Combine all players in both teams
-        game.home_team.players.concat(game.visiting_team.players).forEach( (player:ResultForPlayer)=>{
-            // Pick out the requested player_id and update the stats object
-            if ( player.player_id === id ) {
-                stats.games_played++
-                stats.points_scored += player.points_scored
-            }
-        })
-    });
+  const stats:StatsForPlayer = {
+    games_played: 0,
+    points_scored: 0
+  }
 
-    return stats
+  results.forEach((game:Result) => {
+    // Combine all players in both teams
+    game.home_team.players.concat(game.visiting_team.players).forEach((player:ResultForPlayer) => {
+      // Pick out the requested player_id and update the stats object
+      if (player.player_id === id) {
+        stats.games_played++
+        stats.points_scored += player.points_scored
+      }
+    })
+  })
+
+  return stats
 }
 
-const tallyScoreForPlayers = ( players:Array<ResultForPlayer> ):number => {
-    return players.reduce( (prev:number, current:ResultForPlayer)=> prev += current.points_scored, 0 )
+const tallyScoreForPlayers = (players:Array<ResultForPlayer>):number => {
+  return players.reduce((prev:number, current:ResultForPlayer) => {
+    prev += current.points_scored
+    return prev
+  }, 0)
 }
 
-export const getStatsByTeamId = async ( id:string ):Promise<StatsForTeam> => {
-    let results = await getAll()
-    
-    let stats:StatsForTeam = {
-        home_wins: 0,
-        home_losses: 0,
-        home_draws: 0,
-        away_wins: 0,
-        away_losses: 0,
-        away_draws: 0,
-        points_scored: 0,
-        games_played: 0,
-    }
+export const getStatsByTeamId = async (id:string):Promise<StatsForTeam> => {
+  const results = await getAll()
 
-    results.forEach( (result:Result) => {
-        if ( result.home_team.team_id===id || result.visiting_team.team_id===id ) {
-            let homeScore = tallyScoreForPlayers(result.home_team.players)
-            let awayScore = tallyScoreForPlayers(result.visiting_team.players)
-            let teamIsAtHome = result.home_team.team_id===id
+  const stats:StatsForTeam = {
+    home_wins: 0,
+    home_losses: 0,
+    home_draws: 0,
+    away_wins: 0,
+    away_losses: 0,
+    away_draws: 0,
+    points_scored: 0,
+    games_played: 0
+  }
 
-            // We know this is a game which the team has participated in
-            stats.games_played++
+  results.forEach((result:Result) => {
+    if (result.home_team.team_id === id || result.visiting_team.team_id === id) {
+      const homeScore = tallyScoreForPlayers(result.home_team.players)
+      const awayScore = tallyScoreForPlayers(result.visiting_team.players)
+      const teamIsAtHome = result.home_team.team_id === id
 
-            if ( teamIsAtHome ) {
-                // We know it's the home team
-                stats.points_scored += homeScore
+      // We know this is a game which the team has participated in
+      stats.games_played++
 
-                if ( homeScore > awayScore ) {
-                    // We know it's a win
-                    stats.home_wins++
+      if (teamIsAtHome) {
+        // We know it's the home team
+        stats.points_scored += homeScore
 
-                } else if ( homeScore < awayScore ) {
-                    // We know it's a loss
-                    stats.home_losses++
-
-                } else {
-                    // We know it's a draw
-                    stats.home_draws++
-                }
-
-            } else {
-                // We know it's the away team
-                stats.points_scored += awayScore
-
-                if ( awayScore > homeScore ) {
-                    // We know it's a win
-                    stats.away_wins++
-
-                } else if ( awayScore < homeScore ) {
-                    // We know it's a loss
-                    stats.away_losses++
-
-                } else {
-                    // We know it's a draw
-                    stats.away_draws++
-                }
-
-            }
+        if (homeScore > awayScore) {
+          // We know it's a win
+          stats.home_wins++
+        } else if (homeScore < awayScore) {
+          // We know it's a loss
+          stats.home_losses++
+        } else {
+          // We know it's a draw
+          stats.home_draws++
         }
-    });
+      } else {
+        // We know it's the away team
+        stats.points_scored += awayScore
 
-    return stats
+        if (awayScore > homeScore) {
+          // We know it's a win
+          stats.away_wins++
+        } else if (awayScore < homeScore) {
+          // We know it's a loss
+          stats.away_losses++
+        } else {
+          // We know it's a draw
+          stats.away_draws++
+        }
+      }
+    }
+  })
+
+  return stats
 }

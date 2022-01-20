@@ -7,7 +7,7 @@ This API enables your client to read the Tournament's dataset.
  3. [Using Docker](#using-docker)
  4. [Troubleshooting](#troubleshooting)
  5. [Routes](#routes)
- 6. [API Specification](#api-specification) 
+ 6. [API Specification](#api-specification)
  7. [Testing](#testing)
  8. [Validation](#validation)
  9. [Metrics](#metrics)
@@ -15,33 +15,33 @@ This API enables your client to read the Tournament's dataset.
 
 ## Objectives
 
-With this API, you will be able to retrieve stats on each **Player** and **Team** which took part in the Tournament, as well as all **Results** for each game. 
+With this API, you will be able to retrieve stats on each **Player** and **Team** which took part in the Tournament, as well as all **Results** for each game.
 
 ## Installation
 
-1.  Install [Node.js](http://nodejs.org/).  This application requires Node v14 or above 
-2.  Clone the github repository:
-    ```
+1. Install [Node.js](http://nodejs.org/).  This application requires Node v14 or above
+2. Clone the github repository:
+    ```shell
     git clone https://github.com/Schrembot/nodejs-brief.git
     ```
-3.  Go to the directory:
-    ```
+3. Go to the directory:
+    ```shell
     cd nodejs-brief
     ```
-4.  Install node packages:
-    ```
+4. Install node packages:
+    ```shell
     npm install
     ```
 5. In the project's root folder, create a copy of `.env.example` and rename it `.env`.  In this file, you will need to set a **LEAGE_API_KEY** which will then be used to authorise your requests.
-    ```
+    ```shell
     LEAGUE_API_KEY=1234-1234-1234
     ```
 6. Finally, run one of the following commands to run the application.  For development:
-    ```
+    ```shell
     npm run serve
     ```
     or for production:
-    ```
+    ```shell
     npm run start
     ```
 
@@ -49,8 +49,10 @@ With this API, you will be able to retrieve stats on each **Player** and **Team*
 
 If you prefer using Docker, use the following commands from the project root:
 
-    docker build -t nodejs-brief:latest .
-    docker run -p 8099:8099 nodejs-brief:latest
+```shell
+docker build -t nodejs-brief:latest .
+docker run -p 8099:8099 nodejs-brief:latest
+```
 
 ## Troubleshooting
 
@@ -66,23 +68,23 @@ If any of the data sources set in **LEAGUE_SOURCE_ROOT_URL** are unreachable on 
 ## Routes
 
 You will find the following endpoints in this API:
-|Route  |Description  |
-|--|--|
-|`/teams`|Lists all teams in the tournament.|
-|`/teams/:ids`|Lists one or more teams in the tournament using the given ID(s).  IDs can be comma-separated.|
-|`/teams/:ids/stats`|Lists one or more team's statistics in the tournament using the given ID(s).  IDs can be comma-separated.|
-|`/players`|Lists all players in the tournament|
-|`/players/:ids`|Lists one or more players in the tournament using the given ID(s).  IDs can be comma-separated.|
-|`/players/:ids/stats`|Lists one or more player's statistics in the tournament using the given ID(s).  IDs can be comma-separated.|
-|`/results`|Lists all results for games played including players and points scored|
+| Route                 | Description                                                                                                 |
+|-----------------------|-------------------------------------------------------------------------------------------------------------|
+| `/teams`              | Lists all teams in the tournament.                                                                          |
+| `/teams/:ids`         | Lists one or more teams in the tournament using the given ID(s).  IDs can be comma-separated.               |
+| `/teams/:ids/stats`   | Lists one or more team's statistics in the tournament using the given ID(s).  IDs can be comma-separated.   |
+| `/players`            | Lists all players in the tournament                                                                         |
+| `/players/:ids`       | Lists one or more players in the tournament using the given ID(s).  IDs can be comma-separated.             |
+| `/players/:ids/stats` | Lists one or more player's statistics in the tournament using the given ID(s).  IDs can be comma-separated. |
+| `/results`            | Lists all results for games played including players and points scored                                      |
 
 For a comprehensive schema, see the [next section](#api-specification).
 
 ## API Specification
 
-The file `openapi.yaml` is an OpenAPI definition and is included in the project root.  Copy and Paste the contents of the file into the editor hosted on https://editor.swagger.io/ to view the specification and try out the API from your browser.  You will need to set the API key using the Authorize button.
+The file `openapi.yaml` is an OpenAPI definition and is included in the project root.  Copy and Paste the contents of the file into the editor hosted on <https://editor.swagger.io/> to view the specification and try out the API from your browser.  You will need to set the API key using the Authorize button.
 
-Alternatively, a Postman collection has also been included in the project's root.  You will need to set the **x-api-key** variable to your API key in the collection's variables tab. 
+Alternatively, a Postman collection has also been included in the project's root.  You will need to set the **x-api-key** variable to your API key in the collection's variables tab.
 
 ## Testing
 

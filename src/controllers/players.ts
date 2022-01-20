@@ -3,7 +3,9 @@ import { getStatsByPlayerId, StatsForPlayer as iStatsForPlayer } from '../servic
 import { get as getTeamsById, Team as iTeam } from '../services/teams'
 
 interface PlayerStats extends iPlayer, iStatsForPlayer {
+    /* eslint-disable camelcase */
     team_name: string
+    /* eslint-enable camelcase */
 }
 
 export const getPlayersById = async (ids:string|Array<string>):Promise<Array<iPlayer>> => {

@@ -1,22 +1,31 @@
 import { loadData } from '../utilities/dataCache'
 
 export interface ResultForPlayer {
+    /* eslint-disable camelcase */
     player_id: string,
     points_scored: number
+    /* eslint-enable camelcase */
 }
 export interface ResultForTeam {
+    /* eslint-disable camelcase */
     team_id: string,
     players: Array<ResultForPlayer>
+    /* eslint-enable camelcase */
 }
 export interface Result {
+    /* eslint-disable camelcase */
     home_team: ResultForTeam;
     visiting_team: ResultForTeam;
+    /* eslint-enable camelcase */
 }
 export interface StatsForPlayer {
+    /* eslint-disable camelcase */
     points_scored: number
     games_played: number
+    /* eslint-enable camelcase */
 }
 export interface StatsForTeam {
+    /* eslint-disable camelcase */
     home_wins: number
     home_losses: number
     home_draws: number
@@ -25,6 +34,7 @@ export interface StatsForTeam {
     away_draws: number
     points_scored: number
     games_played: number
+    /* eslint-enable camelcase */
 }
 
 export const getAll = async ():Promise<Array<Result>> => {
@@ -35,8 +45,10 @@ export const getStatsByPlayerId = async (id:string):Promise<StatsForPlayer> => {
   const results = await getAll()
 
   const stats:StatsForPlayer = {
+    /* eslint-disable camelcase */
     games_played: 0,
     points_scored: 0
+    /* eslint-enable camelcase */
   }
 
   results.forEach((game:Result) => {
@@ -64,6 +76,7 @@ export const getStatsByTeamId = async (id:string):Promise<StatsForTeam> => {
   const results = await getAll()
 
   const stats:StatsForTeam = {
+    /* eslint-disable camelcase */
     home_wins: 0,
     home_losses: 0,
     home_draws: 0,
@@ -72,6 +85,7 @@ export const getStatsByTeamId = async (id:string):Promise<StatsForTeam> => {
     away_draws: 0,
     points_scored: 0,
     games_played: 0
+    /* eslint-enable camelcase */
   }
 
   results.forEach((result:Result) => {

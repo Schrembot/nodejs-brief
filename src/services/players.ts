@@ -1,10 +1,12 @@
 import { loadData } from '../utilities/dataCache'
 
 export interface Player {
+    /* eslint-disable camelcase */
     player_id: string;
     name: string;
     age: number;
     team_id: string;
+    /* eslint-enable camelcase */
 }
 
 export const get = async (ids:string|Array<string>):Promise<Array<Player>> => {

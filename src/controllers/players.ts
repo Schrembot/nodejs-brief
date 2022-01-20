@@ -2,7 +2,7 @@ import { get, getAll, Player as iPlayer } from '../services/players'
 import { getStatsByPlayerId, StatsForPlayer as iStatsForPlayer } from '../services/results'
 import { get as getTeamsById, Team as iTeam } from '../services/teams'
 
-interface player_stats extends iPlayer, iStatsForPlayer {
+interface PlayerStats extends iPlayer, iStatsForPlayer {
     team_name: string
 }
 
@@ -19,7 +19,7 @@ export const getPlayerStatsById = async (ids:string|Array<string>):Promise<Array
   const players:Array<iPlayer> = await getPlayersById(ids)
 
   // For each player
-  return Promise.all<player_stats>(players.map((player:iPlayer) => {
+  return Promise.all<PlayerStats>(players.map((player:iPlayer) => {
     return new Promise((resolve, reject) => {
       (async () => {
         try {

@@ -8,7 +8,8 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'prettier'
+    'prettier',
+    'standard'
   ],
   overrides: [
     {
@@ -16,8 +17,7 @@ module.exports = {
     }
   ],
   rules: {
-    "camelcase": ["error", {properties: "never"}],
-    "snakecasejs/snakecasejs": "error",
+    "camelcase": ["off", {properties: "never"}],
     "jest/no-disabled-tests": "warn",
     "jest/no-focused-tests": "error",
     "jest/no-identical-title": "error",
